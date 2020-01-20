@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: 'FontAwesomeBrands';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/fa-brands-400.eot");
+    src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/fa-brands-400.woff2") format("woff2"),
+         url("../fonts/fa-brands-400.woff") format("woff"),
+         url("../fonts/fa-brands-400.ttf") format("truetype"),
+         url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'FontAwesomeRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/fa-regular-400.eot");
+    src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/fa-regular-400.woff2") format("woff2"),
+         url("../fonts/fa-regular-400.woff") format("woff"),
+         url("../fonts/fa-regular-400.ttf") format("truetype"),
+         url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'FontAwesomeSolid';
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/fa-solid-900.eot");
+    src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/fa-solid-900.woff2") format("woff2"),
+         url("../fonts/fa-solid-900.woff") format("woff"),
+         url("../fonts/fa-solid-900.ttf") format("truetype"),
+         url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'midnight_driveregular';
+    src: url('../fonts/midnight_drive-webfont.woff2') format('woff2'),
+         url('../fonts/midnight_drive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'khandbold';
+    src: url('../fonts/khand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/khand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'khandregular';
+    src: url('../fonts/khand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/khand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*** GLYPHE ***/
+
+.far,
+.fab,
+.fas {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#595a5c;
+    transition: all 0.5s ease-out;
+}
+.fas{
+    font: normal normal normal 14px/1 'FontAwesomeSolid';
+}
+.fab{
+    font: normal normal normal 14px/1 'FontAwesomeBrands';
+}
+.far{
+    font: normal normal normal 14px/1 'FontAwesomeRegular';
+}
+
+
+.fa-phone:before{
+    content:"\f095";
+    font-size: 13px;
+    color:white;
+}
+
+.fa-facebook-f:before{
+    content:"\f39e";
+    font-size: 25px;
+    color:white;
+}
+
+
+
+.fa-instagram:before{
+    content:"\f16d";
+    font-size: 25px;
+    color:white;
+}
+
+.fa-home:before{
+    content:"\f015";
+    font-size: 25px;
+    color:white;
+}
+
+.fa-arrow-alt-circle-up:before{
+    content:"\f35b";
+    font-size: 40px;
+    color:white;
+}
+
+#contact-footer a > .fa-facebook-f:before{
+    content:"\f39e";
+    font-size: 30px;
+    color:white;
+}
+
+#contact-footer a > .fa-instagram:before{
+    content:"\f16d";
+    font-size: 30px;
+    color:white;
+}
+
+
+ 
+
+
+
+

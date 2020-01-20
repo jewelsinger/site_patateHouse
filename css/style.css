@@ -1,0 +1,1156 @@
+/*@import "font.css"*/
+html, body, #wrapper-header
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+body
+{
+	width:100%;
+	font-family:'open_sansregular';
+	position: relative;
+	box-sizing:border-box;
+}
+
+#wrapper-header
+{
+	
+	background-image:url("../images/background-header.png");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+
+#banniere1
+{
+	background-image:url("../images/banniere1.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:60vh;
+}
+
+#banniere2
+{
+	background-image:url("../images/banniere2.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:60vh;
+}
+
+#banniere3
+{
+	background-image:url("../images/banniere3.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:60vh;
+}
+
+#banniere4
+{
+	background-image:url("../images/banniere4.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:60vh;
+}
+
+#banniere5
+{
+	background-image:url("../images/banniere5.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:60vh;
+}
+
+nav > .container
+{
+	position:relative;
+}
+
+nav, .navbar 
+{
+	background-color:rgba(0,0,0,0.7);
+		
+}
+
+
+
+
+
+nav#menu a
+{
+	font-size:1em;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+nav#menu a:hover{
+	color:#ea8623;
+}
+
+
+.reseaux
+{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;	
+	width:70px;
+	height: 40px;
+    position: relative;
+    top: 10px;
+    padding-left:15px;
+}
+
+
+/******* CONTENU HEADER  *******/
+
+#content-header
+{
+	height:89%;
+}
+
+.presentation
+{
+	height:100%;
+}
+
+.identification > h1,
+.identification > h2
+{
+	font-family:'midnight_driveregular';	
+}
+
+.identification
+{
+	
+	height:90%;
+}
+
+
+
+.boutons
+{
+	
+	margin-top:20px;
+	
+}
+
+#slogan > p
+{
+	color:#fff;
+	/*text-align:center;*/
+
+}
+
+/******* TITRES *********/
+
+.titre-page
+{
+	
+	height:74px;
+	background-color:#512902;
+	height:100%;
+}
+
+
+
+.titre-section,
+.titre-page
+{
+	text-align:center;
+}
+
+.titres-menus
+{
+	font-family:'midnight_driveregular';
+}
+
+
+
+.titres
+{
+	
+	color:#ea8623;
+}
+
+
+/******* SECTION A PROPOS  *******/
+
+
+#bouton-suite a
+{
+	border: 1px solid #ea8623;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #ea8623;
+    transition:all 1s ease;
+}
+
+#bouton-suite a:hover
+{
+	background-color:#ea8623;
+	color:#fff;
+
+}
+
+#facade
+{
+	text-align:center;
+}
+
+#facade > h2
+{
+	font-family:'midnight_driveregular';
+	margin-top:25px;
+	font-size:2.5rem;
+}
+
+#facade > p
+{
+	font-weight:700;
+}
+
+
+/******* SECTION SAVOIR-FAIRE  *******/
+
+#savoir-faire
+{
+	background-color:#e9e9e9;
+	position:relative;
+}
+
+
+#specialites
+{
+	margin-top:25px;
+}
+
+.image-article img
+{
+	width:100%;
+}
+
+#specialites > .row > article  > .descriptif-specialites > p
+{
+    /*overflow: auto;
+    max-height: 175px;*/
+    padding: 25px;
+    line-height: 20px;
+    background-color:#fff;
+}
+
+
+
+.titre-article
+{
+	padding:10px;
+    background-color: #ea8623;
+    font-family: 'midnight_driveregular';
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-article > h4
+{
+	margin:0;
+}
+
+
+
+
+
+/******* SECTION NEWSLETTER  *******/
+
+#newsletter
+{
+	height:222px;
+	background-color:#f1f1f1;
+
+}
+
+#newsletter > .container
+{
+	height:100%;
+}
+
+#formulaire-newsletter
+{
+
+	height:100%;
+}
+
+
+#formulaire-newsletter label
+{
+	font-weight: 700;
+	text-transform:uppercase;
+	font-size:1.5em;
+}
+
+#formulaire-newsletter input[type="email"]
+{
+	border-radius: 30px 0 0 30px;
+	width:250px;
+	height:50px;
+}
+
+#formulaire-newsletter input[type="submit"]
+{
+	border-radius: 0 30px 30px 0;
+	background-color:#ea8623;
+	color:#fff;
+	text-transform:uppercase;
+	width:250px;
+	height:50px;
+}
+
+/******* SECTION GALERIE  *******/
+
+#galerie article img
+{
+	margin: 10px 0px 10px 0px;
+	
+}
+
+/******* SECTION LA CARTE  *******/
+
+
+.nav-pills .nav-link.active{
+	background-color:#ea8623;
+	color: white !important; /*pour permettre de passer la couleur au dessus du text-dark*/
+}
+
+
+
+.plats h6
+{
+	font-family: 'khandbold';
+}
+
+.plats p
+{
+	font-family: 'khandregular';
+	font-size:0.9rem;
+}
+
+#prix 
+{
+	font-weight: bold;
+}
+
+/******* SECTION LIVRAISONS  *******/
+
+#livraisons
+{
+	background-color:#f0f0f0;
+}
+
+
+
+/******* SECTION MENU-LIVRAISONS  *******/
+
+section#menu-livraisons
+{
+	background-image:url("../images/plan-de-travail.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+
+}
+
+section#menu-livraisons > h2
+{
+	text-shadow: #FC0 1px 0 10px;
+}
+
+.card-body
+{
+  overflow: scroll;
+  max-height:70vh;
+   
+} 
+
+#collapseRouge .card-body
+{
+	max-height:50vh;
+}
+
+#carte-livraisons
+{
+	height:100vh;
+	/*z-index:1000;*/
+}
+
+#plats-livraisons
+{
+	margin-bottom:20px;
+}
+
+#formulaire-livraisons
+{
+	padding:10px 0 10px 0;
+	background-color:#f8f9fa;
+}
+
+#formulaire-livraisons > h3
+{
+	color:#ea8623;
+	text-align:center;
+}
+
+#formulaire-livraisons > form
+{
+	margin:25px;
+}
+
+#formulaire-livraisons > form .form-group
+{
+	margin-bottom:0rem;
+}
+
+.card-header
+{
+	background-color:#512902;
+}
+
+#sous-menu > .card >.card-header
+{
+	background-color:#ea8623;
+	height:50px;
+}
+
+.card-header > h2 >.btn-link
+{
+	color:#ea8623;
+	font-family:'midnight_driveregular';
+	font-size:2rem;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.card-header > h3 >.btn-link
+{
+	color:#fff;
+	font-family:'khandbold';
+	font-size:0.8em;
+	text-decoration: none;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+}
+
+#menu-accordeon h6
+{
+	font-size:1rem;
+	font-weight: bold;
+}
+
+/******* RESERVATIONS-CONTACT  *******/
+
+#reservations
+{ 
+	background-color:#fafafa;
+}
+
+
+.evenement
+{
+	position:relative;
+}
+
+.overlay
+{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left:0;
+  	right: 0;
+   	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	
+}
+
+.evenement:hover .overlay 
+{
+  opacity: 1;
+}
+
+
+/******* FOOTER  *******/
+
+footer
+{
+	
+	background-color:black;
+}
+
+
+.bloc-footer
+{
+	line-height:30px; /*espace interlignes*/
+	color:white;
+	
+}
+
+
+.bloc-footer h2
+{
+	font-size:3rem;
+	font-family:'midnight_driveregular';
+	border-bottom:3px solid #ea8623;
+	
+}
+
+.bloc-footer a
+{
+	text-decoration:none;
+	color:white;
+	cursor:pointer;
+}
+
+
+#plan-footer > #plan > a
+{
+	text-decoration:none;
+	display:block;
+	
+}
+
+#copyright
+{
+	padding-top:50px;
+	color:white;
+	text-align:center;
+}
+
+#copyright > a
+{
+	text-decoration: none;
+	color:white;
+	cursor:pointer;
+	padding-left:5px;
+}
+
+
+
+
+
+
+/******* MEDIA QUERIES  *******/
+
+
+/*telephone*/
+
+/****** HEADER **********/
+
+@media (max-width:767px)
+{
+
+	#wrapper-header{
+		height:40vh;
+	}
+
+	#banniere1, 
+	#banniere2,
+	#banniere3,
+	#banniere4,
+	#banniere5{
+		height:30vh;
+	}
+
+	#title-phone{
+		color:white;
+		left:-90px;
+		position:relative;
+	}
+
+	nav#menu{
+		display:flex; 
+		flex-direction:column;
+	}
+
+	/*nav#menu a:first-child{
+		display:none;
+	}*/
+
+	
+	#logo{
+		display:none;
+	}
+
+	.reseaux{
+		display:none;
+	}
+
+	
+/********  CONTENU HEADER  *******/
+
+	#nom-restaurant{
+		text-align:center;
+	}
+
+	.identification h1{
+		font-size:3em;
+		padding-top:50px;
+	}
+
+	.identification h2{
+		font-size:1.5em;
+	}
+
+	.boutons{
+		justify-content: center;
+	}
+
+	.boutons a{
+		font-size:1em;
+
+	}
+	
+
+	#slogan > p{
+		font-size:6pt;
+		text-align:center;
+	}
+
+	
+
+	section{
+		padding:40px 0 40px 0;
+	}
+
+	
+	article{
+		padding:10px 0 10px 0;
+	}
+
+	
+	/********  SECTION A-PROPOS  *******/
+
+	.titre-section h2{
+		font-size:1.8rem;
+	}
+
+
+	#bouton-suite{
+		justify-content: center;
+	}
+
+	.carousel-inner{
+		margin-top:30px;
+	}
+
+	/********  SECTION NEWSLETTER  *******/
+
+	#formulaire-newsletter
+	{
+		text-align:center;
+	}
+
+	#formulaire-newsletter label[for="news"]
+	{
+		padding-right:0;
+	}
+
+	#formulaire-newsletter input[type="email"] {
+    	width: 280px;
+    	border-radius: 30px;
+    }
+	
+	#formulaire-newsletter input[type="submit"] {
+        width: 150px;
+    	border-radius: 30px;
+		margin-top:20px;
+	}
+
+	/****** SECTION SAVOIR-FAIRE  ********/
+
+	#basilic {
+    	position: absolute;
+    	top: -45px;
+    	right: 130px;
+    	width: 120px;
+    	height: 78px;
+    }
+
+    /****** SECTION GALERIE  ********/
+	
+    .ma_galerie {
+    	display:flex;
+    	justify-content: center;
+    }
+
+    /****** SECTION LA CARTE  ********/
+
+    #la-carte > .menu-carte > .row > ul{
+    	
+    	text-align:center;
+    	padding-left:15px;
+    	justify-content: space-around;
+
+    }
+
+    #la-carte > .menu-carte > .row > ul > li{
+    	font-size:0.8rem;
+    	justify-content: space-around;
+    }
+
+	/*#le-bar > .menu-bar > .row > ul{
+    	flex-direction:column;
+    	text-align:center;
+    }
+*/
+    #le-bar > .menu-bar > .row > ul{
+    	text-align:center;
+    	padding-left:15px;
+    	justify-content: space-around;
+    }
+
+    #le-bar > .menu-bar > .row > ul > li{
+    	font-size:0.8rem;
+    	justify-content: space-around;
+    }
+
+    .tab-content > .tab-pane > .d-flex{
+    	flex-direction:column;
+    }
+
+    #trigger > button{
+		width:100px;
+		margin-left:34%;
+    }
+
+    #trigger2 > button{
+    	width:140px;
+    	margin-left:30%;
+    }
+
+	/******** LIVRAISONS ******/
+
+	.card-body > .d-flex{
+		flex-direction:column;
+	}
+	
+
+	.content-livraisons.d-flex{
+		flex-direction:column;
+		
+	}
+
+	#formulaire-livraisons{
+		margin-top:111px;
+	}
+
+	/******* CONTACT *******/
+
+	
+	#titre-contact{
+		font-size:2rem;
+	}
+
+	section#reservations > .d-flex{
+		flex-direction: column;
+	}
+
+	#presentation-etablissement{
+		flex-direction: column;
+	}
+
+	#presentation-etablissement > img,
+	#presentation-etablissement > #nom-restaurant{
+		width:100% !important;
+	}
+
+	#text-events{
+		font-size:0.9rem;
+	}
+
+
+	#formulaire-reservation{
+		height:600px;
+	}
+
+	
+
+	/******** FOOTER *******/
+
+	#content-footer{
+		flex-direction:column;
+	}
+
+	.bloc-footer h2{ 
+		padding: 30px 0 12px 0;
+		text-align:center;
+	}
+
+	#contact-footer{
+		text-align:center;
+	}
+
+	
+	#plan-footer{
+		display:none;
+	}
+
+	#copyright{
+		font-size:0.6em;
+		padding-top:10px;
+	}
+
+}
+
+
+
+
+
+/*tablette*/
+@media (min-width:768px) and (max-width: 1023px)
+{	
+	
+	#wrapper-header{
+		height:50vh;
+	}
+
+	#banniere1, 
+	#banniere2,
+	#banniere3,
+	#banniere4,
+	#banniere5{
+		height:30vh;
+	}
+
+	nav, .navbar 
+	{
+	
+		min-height:20px;
+	
+	}
+
+	nav#menu a {
+    	font-size: 0.8rem;
+
+	}
+
+	.navbar-brand{
+		display:none;
+	}
+
+	.navbar .collapse:not(.show) {
+    	display: block;
+	}
+
+
+	.navbar-toggler{
+		display: none;
+	}
+
+	#title-phone{
+		display:none;
+	}
+
+	#logo{
+		top:-10px;
+
+	}
+
+	#logo{
+	background-image:url("../images/logo3.png");
+	background-size:cover;
+	height:100px;
+	width:100px;
+	top:-10px;
+	}
+
+	.fa-home:before {
+		font-size:15px !important;
+	}
+
+	#onglets-menu{
+		padding-top:8px;
+	}
+
+	.reseaux{
+		top:0px;
+		width:60px;
+	}
+
+	.navbar .fa-facebook-f:before {
+		font-size:30px !important;
+	}
+
+	.navbar .fa-instagram:before {
+		font-size:15px !important;
+	}
+
+
+	/****** CONTENU HEADER  ********/
+
+	.identification h1{
+		font-size:3rem;
+	}
+
+	.identification h2{
+		font-size:1.5rem;
+	}
+
+	.boutons .btn{
+		font-size:15px;
+	}
+	
+	#slogan > p {
+    	font-size: 8pt;
+    }
+
+	section{
+		padding:30px 0 30px 0;
+	}
+
+	article{
+		padding:20px 0 20px 0;
+	}
+
+	/****** SECTION A-PROPOS  ********/
+
+	#bouton-suite{
+		justify-content: flex-start;
+	}
+
+	/****** SECTION SAVOIR-FAIRE  ********/
+
+	#basilic {
+    	position: absolute;
+    	top: -75px;
+    	right: 50px;
+    	width: 170px;
+    	height: 128px;
+	}
+
+	#specialites > .row > .col-md-6{
+		margin:auto;
+	}
+
+	/****** NEWSLETTER *******/
+
+	#formulaire-newsletter label[for="news"] {
+    	padding-right: 20px;
+	}
+
+	#formulaire-newsletter input[type="email"] {
+    	border-radius: 30px 0 0 30px;
+    	width: 250px;
+    	height: 50px;
+	}
+
+	#formulaire-newsletter input[type="submit"] {
+    	border-radius: 0 30px 30px 0;
+    	background-color: #ea8623;
+    	color: #fff;
+    	text-transform: uppercase;
+    	width: 230px;
+    	height: 50px;
+	}
+
+	/****** SECTION GALERIE  ********/
+
+	#galerie article img{
+		height:75%;
+
+	}
+
+	.menu-carte{
+		flex-direction:nowrap;
+	}
+
+	/******  LIVRAISON ******/
+
+	#formulaire-livraisons > h3{
+		font-size:1.5rem;
+	}	
+
+	/******* CONTACT *******/
+	#presentation-etablissement{
+		flex-direction: column;
+	}
+
+	#presentation-etablissement > img,
+	#presentation-etablissement > #nom-restaurant{
+		width:100% !important;
+	}
+
+	#horaire-livraisons{
+		max-height:400px;
+	}
+
+	#zone-reservation{
+		max-height:450px;
+	}
+
+	
+	/****** FOOTER ********/
+
+	.bloc-footer h2{ 
+		
+		font-size:2.5rem;
+		padding: 12px 0px;
+	}
+
+	#reseaux-footer{
+		width: 60%;
+	}
+
+	#horaire-resto #jours{
+		margin-right:25px;
+	}
+
+	#copyright{
+		padding-top:50px;
+	}
+
+
+	
+}
+
+
+
+
+
+
+/*desktop*/
+@media (min-width:1024px)
+{
+
+	#wrapper-header{
+		height:100vh;
+	}
+
+	#banniere1,
+	#banniere2,
+	#banniere3,
+	#banniere4,
+	#banniere5{
+		height:60vh;
+	}
+
+	.navbar-brand{
+		display:none;
+	}
+
+	nav, .navbar 
+	{
+		min-height:60px;
+	
+	}
+	
+
+	/*nav#menu a{
+		padding:10px;
+	}*/
+
+	
+
+	#logo{
+	background-image:url("../images/logo2.png");
+	background-size:cover;
+	height:130px;
+	width:130px;
+	top:-10px;
+	}
+
+	#title-phone{
+		display:none;
+	}	
+
+	
+																																		
+
+	/****** CONTENU HEADER  ********/
+
+	section{
+		padding:50px 0 50px 0;
+	}
+
+	article{
+		padding:20px 0 20px 0;
+	}
+
+
+	
+	.identification h1{
+		font-size:4em;
+	}
+
+	#slogan > p{
+		font-size:13pt;
+	}
+
+	.titre-page > h1{
+		font-size:3rem;
+	}
+
+	/****** SECTION A-PROPOS  ********/
+
+	.titre-section h2{
+		font-size:2.5rem;
+	}
+
+	#bouton-suite{
+		justify-content: flex-start;
+	}
+
+	/****** SECTION NEWSLETTER  ********/
+
+	#formulaire-newsletter label[for="news"]
+	{
+		padding-right: 20px;
+	}
+
+	/****** SECTION SAVOIR-FAIRE  ********/
+
+	#basilic{
+		position: absolute;
+    	top: -100px;
+    	right: 50px;
+	}
+
+	/****** SECTION GALERIE  ********/
+
+	#galerie article img{
+		height:90%;
+	}
+	
+	/****** FORMULAIRE LIVRAISON ******/
+
+
+
+
+	/****** FOOTER  ********/
+
+	.bloc-footer h2{ 
+		
+		padding: 12px 0px;
+	}
+
+	#reseaux-footer{
+		width: 35%;
+	}
+
+	#copyright{
+		padding-top:50px;
+	}
+
+
+}	
+

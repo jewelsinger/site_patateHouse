@@ -1,0 +1,1421 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+                  maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+  <link href="./vendor/bootstrap-4.3.1/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+  <link href="./css/font.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="./vendor/fancybox/dist/jquery.fancybox.min.css" />
+
+
+  <title>Patate House </title>
+</head>
+
+<body>
+  <div id="banniere2">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <a href="index.html">
+          <div id="logo" class="position-absolute"></div>
+        </a><!-- logo -->
+        <div id="title-phone">
+          Patate house <br />
+          <i class="fas fa-phone"></i>
+          065/77.71.73
+        </div><!-- title-phone -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+
+          <div class="navigation row col-md-12">
+
+            <div id="onglets-menu" class="col-md-9 offset-2">
+              <nav id="menu" class="d-flex align-items-center justify-content-between"
+                style="background-color:transparent;">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+                <a href="le-restaurant.html">Le restaurant</a>
+                <a href="la-carte.html">La carte</a>
+                <a href="le-bar.html">Le bar</a>
+                <a href="livraisons.html">Livraisons</a>
+                <a href="contact.html">Contact - Réservation</a>
+              </nav>
+            </div>
+
+            <div class="col-md-1">
+              <div class="reseaux border-left border-white">
+                <div id="facebook">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                </div><!-- facebook -->
+
+                <div id="instagram">
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> </a>
+                </div><!-- instagram -->
+              </div><!-- reseaux -->
+            </div>
+          </div><!-- navigation -->
+
+        </div><!-- collapse navbar collapse #navbarNav-->
+      </div><!-- .container -->
+    </nav>
+  </div><!-- banniere1 -->
+
+
+  <div class="titre-page titres">
+    <h1>La carte</h1>
+  </div>
+
+  <!-- SECTION LA-CARTE -->
+
+  <section id="la-carte" class="container">
+    <div class="menu-carte d-flex justify-content-around mb-4">
+      <div class="row">
+        <ul class="col text-uppercase font-weight-bold nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+
+          <li class="nav-item">
+            <a class="nav-link active text-dark" id="pills-tapas-tab" data-toggle="pill" href="#pills-tapas" role="tab"
+              aria-controls="pills-tapas" aria-selected="false">tapas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-entrees-tab" data-toggle="pill" href="#pills-entrees" role="tab"
+              aria-controls="pills-entrees" aria-selected="false">Entrées</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-salades-tab" data-toggle="pill" href="#pills-salades" role="tab"
+              aria-controls="pills-salades" aria-selected="false">Salades</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-viandes-tab" data-toggle="pill" href="#pills-viandes" role="tab"
+              aria-controls="pills-viandes" aria-selected="false">Viandes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-specialites-tab" data-toggle="pill" href="#pills-specialites"
+              role="tab" aria-controls="pills-specialites" aria-selected="false">Spécialités</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-pizzas-tab" data-toggle="pill" href="#pills-pizzas" role="tab"
+              aria-controls="pills-pizzas" aria-selected="false">pizzas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pills-desserts-tab" data-toggle="pill" href="#pills-desserts" role="tab"
+              aria-controls="pills-desserts" aria-selected="false">desserts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade" id="pills-tout" role="tabpanel" aria-labelledby="pills-tout-tab"></div>
+
+      <div class="tab-pane fade show active" id="pills-tapas" role="tabpanel" aria-labelledby="pills-tapas-tab">
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Burrata</h6>
+                <p>Burrata 150g, roquette et tomate</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">9.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Trio de croquinettes sur lit de roquette</h6>
+                <p>Croquinettes du jour farcies</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">10.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Terrine maison à l’ancienne</h6>
+                <p>Accompagnée d’oignons et cornichons
+                  au vinaigre et moutarde (80g)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">8.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Terrine de foie gras</h6>
+                <p>Foie gras de canard maison mariné à l’armagnac et porto blanc, accompagné de confiture d’oignons et
+                  pain artisanal à la figue (40g)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">9.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Arrosticini</h6>
+                <p>Brochette de viande de brebis grillée de 25g (sans accompagnement)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">1.80 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau de la mer</h6>
+                <p>Kibbeling, scampis frits, calamars frits, saumon fumé, tartare, tzatziki et tarama</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau de charcuteries</h6>
+                <p>Rosette, chorizo piquant, speck et terrine maison, accompagné d’oignons et cornichons au vinaigre</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau mixte</h6>
+                <p>Rosette, chorizo piquant, terrine maison, féta et Maredsous, accompagné d’oignons et cornichons au
+                  vinaigre</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Kibbeling</h6>
+                <p>Cabillaud frit et sauce tartare</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">9.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Assortiment d’insectes</h6>
+                <p>Grillons, vers de farine et sauterelles grillées au four (produits naturels belges)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Pain à l’huile d’olive vierge</h6>
+                <p>Peut accompagner les arrosticini</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">1.00 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-entrees" role="tabpanel" aria-labelledby="pills-entrees-tab">
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Salade de chèvre chaud</h6>
+                <p>Chèvre de Soignon sur toast, miel de fleurs, lardons et pommes granny (Végétarien sans lardons)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">11.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Saumon fumé de Norvège</h6>
+                <p>Accompagné de quenelles de fromage aux fines herbes, salade composée et toasts de pain de mie</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Carpaccio de boeuf d’Anvers à la moutarde à l’ancienne</h6>
+                <p>Avec huile d’olive extra vierge et copeaux de parmesan Grana Padano (16 mois d’affinage)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Carpaccio de boeuf d’Anvers aux trois poivres</h6>
+                <p>Avec huile d’olive extra vierge et copeaux de parmesan Grana Padano (16 mois d’affinage)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Terrine de foie gras (40gr-80gr)</h6>
+                <p>Foie gras de canard maison mariné à l’armagnac et porto blanc, accompagné de confiture d’oignons et
+                  pain artisanal à la figue. </p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">9.00 €</p>
+                <p class="d-flex justify-content-end">16.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Terrine maison à l’ancienne</h6>
+                <p>Accompagnée d’oignons et cornichons au vinaigre et moutarde (80g)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Triangle de maroilles et munster frits sur lit de salade composée</h6>
+                <p>Accompagnés de pommes, amandes et noix</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Croquettes au fromage (1pc-2pcs)</h6>
+                <p>Croquettes au fromage artisanales belges et salade composée</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">5.00 €</p>
+                <p class="d-flex justify-content-end">10.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Croquettes aux crevettes grises (1pc-2pcs)</h6>
+                <p>Croquettes aux crevettes grises artisanales belges et salade composée</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">6.50 €</p>
+                <p class="d-flex justify-content-end">12.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Calamars frits et beignets de scampis</h6>
+                <p>Accompagnés de tarama, tzatziki et salade composée</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">11.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Scampis poêlés au beurre à l’ail, risotto aux champignons et parmesan</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Scampis à l’ail</h6>
+                <p>Avec toasts</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">11.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Brochette de scampis grillés</h6>
+                <p>Accompagnée de sauce provençale et crustacés, salade composée</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Rougets grillés à l’huile d’olive</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-salades" role="tabpanel" aria-labelledby="pills-salades-tab">
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Norvégienne</h6>
+                <p>Salade, crudités, mozzarella, saumon fumé de Norvège, croquettes aux crevettes artisanales belges,
+                  crème aux fines herbes et toast grillés</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Méditérranéenne</h6>
+                <p>Salade, crudités, scampis grillés, olives et féta grecque</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Zaza</h6>
+                <p>Salade, crudités, féta grecque, tarama, tzatziki, beignets de scampis, calamars frits et olives</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">L’Ostendaise</h6>
+                <p>Salade, crudités, kibbeling (cabillaud frit), crevettes roses, sauce tartare et citron</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Chevrette (végétarienne sans lardons)</h6>
+                <p>Salade, crudités, lardons frits, féta de brebis, mozzarella, chèvre en buchette de Soignon, amandes,
+                  noix, raisins secs et toasts de mie grillés.</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Le Sapin Rouge</h6>
+                <p>Salade, crudités, croquettes de Munster (Le Sapin Rouge AOP), amandes, noix, raisins secs et dés de
+                  pommes Granny</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Ch’ti</h6>
+                <p>Salade, crudités, croquettes de maroilles de Picardie (affiné 21 jours), amandes, noix, raisins secs
+                  et dés de pommes Granny</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Poulette</h6>
+                <p>Salade, crudités, poitrine de poulet mariné, champignons de Paris poêlés, croquette de vol-au-vent,
+                  noix et dés de pommes Granny</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">L’Ardennaise</h6>
+                <p>Salade, crudités, dés de pomme de terre chaude cuite au four, speck, chèvre en bûchette de Soignon,
+                  lardons frits, noix et toasts de pain de mie grillés</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Périgourdine</h6>
+                <p>Salade, crudités, foie gras de canard 40 g à l’armagnac et porto blanc, magret de canard fumé, pommes
+                  caramélisées, confiture d’échalotes à la framboise et toasts briochés</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">17.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Périgourdine</h6>
+                <p>Salade, crudités, foie gras de canard 80 g à l’armagnac et porto blanc, magret de canard fumé, pommes
+                  caramélisées, confiture d’échalotes à la framboise et toasts briochés</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">20.00 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-viandes" role="tabpanel" aria-labelledby="pills-viandes-tab">
+        <div class="text-center mb-5 font-weight-bold">
+          <p class="mb-0">Grillades et plats accompagnés d’une salade et de légumes chauds</p>
+          <p>Au choix : pomme de terre au four, frites ou croquettes</p>
+        </div>
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Entrecôte de bœuf Holstein</h6>
+                <p>350g – Hollande – Maturée 21 jours</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">26.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Entrecôte de bœuf Simmental</h6>
+                <p>350g – Suisse – Maturée 21 jours</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">25.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Côte à l’os de bœuf Hereford</h6>
+                <p>550g – Irlandaise – Maturée 21 jours
+                  <br />(possibilité de la manger à deux)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">35.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau entrecôtes (base chauffante)</h6>
+                <p>Entrecôte Holstein 350 g et Simmental 350 g</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">48.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau Mixte (base chauffante)</h6>
+                <p>Entrecôte au choix Holstein ou Simmental 350 g et côte à l’os Hereford 550 g</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">57.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau du chef (base chauffante)</h6>
+                <p>Entrecôte au choix Holstein ou Simmental 350 g, côte à l’os Hereford 550 g et brochette d’agneau
+                  marinée aux herbes de Provence et origan de Crète 250 g</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">76.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Plateau du patron (base chauffante)</h6>
+                <p>Entrecôte Holstein 350 g, entrecôte Simmental 350 g et côte à l’os Hereford 550 g</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">80.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Brochette d’agneau (Adulte - Enfant)</h6>
+                <p>Marinée aux herbes de Provence et origan de Crète (250g)</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">24.00 €</p>
+                <p class="d-flex justify-content-end">13.00 €</p>
+              </div>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Arrosticini</h6>
+                <p>Brochette de viande de brebis (sans accompagnement) (25g/pc)</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">1.80 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Assiette arrosticini (Adulte - Enfant)</h6>
+                <p>12 arrosticini et accompagnements</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">22.00 €</p>
+                <p class="d-flex justify-content-end">12.50 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Brochette de bœuf Irlandais (250 g) (Adulte - Enfant)</h6>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">21.00 €</p>
+                <p class="d-flex justify-content-end">12.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Pavé de bœuf irlandais (250 g) (Adulte - Enfant)</h6>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">18.00 €</p>
+                <p class="d-flex justify-content-end">11.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Jambonneau désossé impérial (300 g) (Adulte - Enfant)</h6>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">17.00 €</p>
+                <p class="d-flex justify-content-end">10.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Pavé de saumon écossais (Adulte - Enfant)</h6>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">17.00 €</p>
+                <p class="d-flex justify-content-end">10.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-4">Brochette de scampis grillés (8 pcs)</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">16.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Filet américain maison</h6>
+                <p>Préparé et assaisonné minute, accompagné de câpres, cornichons, échalotes et mayonnaise</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div id="trigger" class="d-flex justify-content-center">
+          <button type="button" class="titre-section btn btn-lg text-uppercase"
+            style="background-color: #ea8623; color:white; font-family:'khandbold';" data-toggle="modal"
+            data-target="#modalSauces">Sauces
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalSauces" tabindex="-1" role="dialog" aria-labelledby="modalSaucesTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header"
+                style="background-color: #512902; color:#ea8623; font-family:'midnight_driveregular';">
+                <h3 class="modal-title" id="ModalSaucesTitle">Sauces</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span style="color:white;" aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body d-flex">
+                <div class="w-50 text-center">
+                  <h5 class="text-uppercase" style="font-family:'khandbold';">Chaudes <br /> 3.00 €</h5>
+
+                  <p class="mb-0">Archiduc</p>
+                  <p class="mb-0">4 fromages</p>
+                  <p class="mb-0">Poivre noir concassé</p>
+                  <p class="mb-0">Béarnaise</p>
+                  <p class="mb-0">Crustacés</p>
+                  <p class="mb-0">Provençale</p>
+                  <p class="mb-0">Dijonnaise</p>
+                  <p class="mb-0">Choron</p>
+                </div>
+
+                <div class="w-50 text-center">
+                  <h5 class="text-uppercase" style="font-family:'khandbold';">Froides <br /> 0.60 €</h5>
+
+                  <p class="mb-0">Mayonnaise</p>
+                  <p class="mb-0">Ketchup</p>
+                  <p class="mb-0">Andalouse</p>
+                  <p class="mb-0">Moutarde</p>
+                  <p class="mb-0">Brazil</p>
+                  <p class="mb-0">Américaine</p>
+                  <p class="mb-0">Samourai</p>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn"
+                  style="background-color: #ea8623; color:white; font-family:'khandbold'; " data-dismiss="modal">Fermer
+                </button>
+              </div>
+            </div><!-- modal content -->
+          </div><!-- modal dialog -->
+        </div><!-- modal fade -->
+      </div>
+      <div class="tab-pane fade" id="pills-specialites" role="tabpanel" aria-labelledby="pills-specialites-tab">
+        <div class="text-center mb-5 font-weight-bold">
+          <p class="mb-0">Pomme de terre de +/- 400gr cuite au four</p>
+          <p>accompagnée de crème au Raifort et d’une salade composée</p>
+        </div>
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Fromagère (Adulte - Enfant)</h6>
+                <div class="d-inline-flex">
+                  <img class="mr-3" src="./images/vegetarien.png" width="20" height="21" />
+                  <p class="font-weight-bold mb-0">sans jambon fumé</p>
+                </div>
+                <p>Féta grecque, mozzarella, Maredsous, speck et sauce 4 fromages (mozzarella, emmental, cheddar, gouda)
+                </p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">13.50 €</p>
+                <p class="d-flex justify-content-end">8.50 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Chevrière (Adulte - Enfant)</h6>
+                <div class="d-inline-flex">
+                  <img class="mr-3" src="./images/vegetarien.png" width="20" height="21" />
+                  <p class="font-weight-bold mb-0">sans lardons</p>
+                </div>
+                <p>Chèvre de Soignon, féta grecque, lardons, sauce 4 fromages (mozzarella, emmental, cheddar, gouda)
+                  accompagné de miel</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">13.50 €</p>
+                <p class="d-flex justify-content-end">8.50 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Maroille (Adulte - Enfant)</h6>
+                <p>Croquettes de maroilles de Picardie affiné 21 jours, féta grecque, mozzarella et sauce 4 fromages
+                  (mozzarella, emmental, cheddar, gouda)</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">14.00 €</p>
+                <p class="d-flex justify-content-end">8.50 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Le Munster (Adulte - Enfant)</h6>
+                <p>Croquettes de munster, féta grecque, mozzarella et sauce 4 fromages (mozzarella, emmental, cheddar,
+                  gouda)</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">14.50 €</p>
+                <p class="d-flex justify-content-end">9.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Tartiflette</h6>
+                <p>Lard, sauce au reblochon, oignons rouges et vin blanc</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Chicorée (Adulte - Enfant)</h6>
+                <p>Chicon, emmental, jambon à l’os et sauce béchamel</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">14.00 €</p>
+                <p class="d-flex justify-content-end">8.50 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Bolo (Adulte - Enfant)</h6>
+                <p>Boulettes pur bœuf, sauce bolognaise et emmental râpé</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">12.00 €</p>
+                <p class="d-flex justify-content-end">8.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Forestière (Adulte - Enfant)</h6>
+                <p>Emincés de poulet, champignons de Paris et sauce forestière</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">13.00 €</p>
+                <p class="d-flex justify-content-end">8.00 €</p>
+              </div>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Liégeoise (Adulte - Enfant)</h6>
+                <p>Boulettes pur bœuf, sirop de Liège et sauce forestière</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">13.50 €</p>
+                <p class="d-flex justify-content-end">8.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Périgord (Adulte - Enfant)</h6>
+                <p>Foie gras de canard en terrine maison, confiture d’oignons à la framboise et magret de canard fumé
+                </p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">19.00 €</p>
+                <p class="d-flex justify-content-end">12.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Jambonnière (Adulte - Enfant)</h6>
+                <p>Jambonneau impérial désossé cuit au court-bouillon, champignons de Paris et sauce poivre noir
+                  concassé ou sauce forestière</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">15.00 €</p>
+                <p class="d-flex justify-content-end">9.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Toulousaine</h6>
+                <p>Cuisse de canard confite, haricots de Soissons et sauce provençale</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">18.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Hollandaise (Adulte - Enfant)</h6>
+                <p>Kibbeling (cabillaud frit) et sauce tarte</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">16.00 €</p>
+                <p class="d-flex justify-content-end">10.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Marseillaise (Adulte - Enfant)</h6>
+                <p>Scampis grillés, ciboulette et sauce crustacés</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">14.50 €</p>
+                <p class="d-flex justify-content-end">9.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Nordique (Adulte - Enfant)</h6>
+                <p>Saumon fumé de Norvège, crème aux fines herbes et ciboulette</p>
+              </div>
+              <div id="prix" class="w-25">
+                <p class="mb-0 d-flex justify-content-end">15.00 €</p>
+                <p class="d-flex justify-content-end">9.00 €</p>
+              </div>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La Saint-Jacques</h6>
+                <p>Saint-Jacques grillées, sauce hollandaise et tuile de pecorino aux agrumes</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">18.00 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-pizzas" role="tabpanel" aria-labelledby="pills-pizzas-tab">
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="titres-menus titres mb-3" style="height:30px;">
+              <h3>Pizzas Rouges</h3>
+            </div>
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Margherita</h6>
+                <p>Tomate, mozzarella, origan, huile d’olive et basilic</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">10.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Prosciutto</h6>
+                <p>Tomate, mozzarella, jambon et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">11.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Capricciosa</h6>
+                <p>Tomate, mozzarella, jambon, champignons et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Siciliana</h6>
+                <p>Tomate, mozzarella, poivrons, anchois et olives</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Napolitana</h6>
+                <p>Tomate, mozzarella, anchois, câpres et olives</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Parmigiana</h6>
+                <p>Tomate, mozzarella, aubergines, parmesan et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Bolognaise</h6>
+                <p>Tomate, mozzarella, bolognaise, boulettes pur bœuf et parmesan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">12.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">4 fromages</h6>
+                <p>Tomate, mozzarella, tallegio, gorgonzola, parmesan et caciocavallo</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">4 stagioni</h6>
+                <p>Tomate, mozzarella, champignons, artichauts, jambon, poivrons, olives et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Tonno</h6>
+                <p>Tomate, mozzarella, thon et oignons</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">13.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Scampis</h6>
+                <p>Tomate, mozzarella, scampis grillés, rondelles de tomate, ail et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Bufala</h6>
+                <p>Tomate, mozzarella, mozzarella di bufala, rondelles de tomate, huile d’olive et basilic</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Carpaccio</h6>
+                <p>Tomate, mozzarella, carpaccio de bœuf, roquette, parmesan et huile d’olive</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Ardennaise</h6>
+                <p>Tomate, mozzarella, pomme de terre cuite au four, jambon speck, chèvre de Soignon en bûchette, miel
+                  et lardons</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Haute-Savoie</h6>
+                <p>Tomate, mozzarella, pomme de terre cuite au four, reblochon, jambon de Parme et origan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Isabella</h6>
+                <p>Tomate, mozzarella, roquette, jambon de Parme, parmesan, tomates cerise, huile d’olive et origan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Hawaïenne</h6>
+                <p>Tomate, mozzarella, jambon et ananas frais</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Calzone</h6>
+                <p>Tomate, mozzarella, jambon, chorizo, champignons accompagnés de roquette et parmesan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Roma</h6>
+                <p>Tomate, mozzarella, chèvre de soignon, origan, poivrons, chorizo, miel et origan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Merguez</h6>
+                <p>Tomate, mozzarella, merguez, poivrons, oignons, huile d’olive et origan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Anatra</h6>
+                <p>Tomate, mozzarella, figues, roquette, foie gras, magret de canard, tomates cerise, huile d’olive,
+                  origan et sel de Guérande</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">18.00 €</p>
+            </div><!-- plats -->
+
+            <div class="titres-menus titres mb-3" style="height:30px;">
+              <h3>Pizzas Blanches</h3>
+            </div>
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Fromagère blanche</h6>
+                <p>Mozzarella, crème, tallegio, gorgonzola, parmesan et caciocavallo</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Due salmoni</h6>
+                <p>Mozzarella, saumon fumé cuit, saumon fumé, deux crèmes, oignons et aneth</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">15.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Pollo</h6>
+                <p>Mozzarella, crème, poulet, champignons, reblochon et origan</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">14.50 €</p>
+            </div><!-- plats -->
+          </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div id="trigger2" class="d-flex justify-content-center">
+          <button type="button" class="titre-section btn btn-lg text-uppercase"
+            style="background-color: #ea8623; color:white; font-family:'khandbold';" data-toggle="modal"
+            data-target="#modalSupplements">Suppléments
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalSupplements" tabindex="-1" role="dialog"
+          aria-labelledby="modalSupplementsTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header"
+                style="background-color: #512902; color:#ea8623; font-family:'midnight_driveregular';">
+                <h3 class="modal-title" id="modalSupplementsTitle">Suppléments</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span style="color:white;" aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="row modal-body d-flex font-weight-bold ">
+
+                <p class="w-75 pl-3">Olives - Oeufs - Oignons - Câpres - Roquette</p>
+                <p id="prix" class="w-25 text-center">1.00 €</p>
+
+                <p class="w-75 pl-3">Lardons - Thon - Pomme de terre - Tomates fraiches - Anchois - Poivrons</p>
+                <p id="prix" class="w-25 text-center">1.00 €</p>
+
+                <p class="w-75 pl-3">Speck - Jambon - Chorizo - Scampis - 4 fromages - Chèvre - Sauce Bolognaise -
+                  Reblochon - Mozarella di buffala</p>
+                <p id="prix" class="w-25 text-center">1.00 €</p>
+
+                <p class="w-75 pl-3">Jambon de Parme - Double pâte</p>
+                <p id="prix" class="w-25 text-center">1.00 €</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn"
+                  style="background-color: #ea8623; color:white; font-family:'khandbold'; " data-dismiss="modal">Fermer
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-desserts" role="tabpanel" aria-labelledby="pills-desserts-tab">
+        <div class="d-flex">
+          <div class="col-md-5 pt-2">
+            <div class="titres-menus titres mb-3" style=" height:30px;">
+              <h3>Desserts</h3>
+            </div>
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Crème brûlée au Grand Marnier</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Crème brûlée nature</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">5.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Panna Cotta caramel au beurre salé brisures de nougatine</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Profiteroles glacées et chocolat chaud maison</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Mousse au chocolat</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">5.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Moelleux au chocolat revisité, glace vanille (15 min d’attente)</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Café gourmand</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">8.00 €</p>
+            </div><!-- plats -->
+
+            <div class="titres-menus titres mb-3" style=" height:30px;">
+              <h3>Coupes glacées</h3>
+            </div>
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Brésilienne</h6>
+                <p>Glace moka, glace vanille, coulis de caramel, chantilly maison et pralin</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Dame blanche</h6>
+                <p>Glace vanille, chocolat chaud et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Dame noire</h6>
+                <p>Glace chocolat noir, chocolat chaud et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Spéculoos</h6>
+                <p>Glace spéculoos, glace vanille, brisures de spéculoos et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Tagada</h6>
+                <p>Glace fraise, glace vanille, fraises Tagada, coulis de fraise et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Smarties</h6>
+                <p>Glace vanille, glace stracciatella, Smarties et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.50 €</p>
+            </div><!-- plats -->
+          </div>
+
+          <div class="col-md-5 offset-md-2 pt-2">
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Charly</h6>
+                <p>Glace chocolat blanc, copeaux de chocolat blanc et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Stracciatella</h6>
+                <p>Glace stracciatela « Gelato Di Natura » et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">6.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Oreo</h6>
+                <p>Glace vanille, caramel beurre salé, stracciatela, brisures d’Oreo, chocolat chaud et chantilly maison
+                </p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">La tache</h6>
+                <p>Glace pistache, glace caramel au beurre salé, Oreo, coulis caramel, pralin et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.50 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Café glacé moka</h6>
+                <p>Glace moka, café expresso, cacao et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Café glacé caramel</h6>
+                <p>Glace moka et caramel, café expresso, coulis caramel et chantilly maison</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Colonel</h6>
+                <p>Sorbet citron (jaune, vert) et vodka</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">7.00 €</p>
+            </div><!-- plats -->
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-0">Biercée</h6>
+                <p>Sorbet citron (jaune, vert) et eau de Vilée</p>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">8.00 €</p>
+            </div><!-- plats -->
+
+            <div class="titres-menus titres mb-3" style=" height:30px;">
+              <h3>Sorbets</h3>
+            </div>
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Citron jaune/Citron vert/Framboise (1 boule)</h6>
+              </div>
+              <p id="prix" class="w-25 d-flex justify-content-end">2.00 €</p>
+            </div><!-- plats -->
+
+            <div class="titres-menus titres mb-3" style=" height:30px;">
+              <h3>Parfums</h3>
+            </div>
+
+            <div class="plats d-flex">
+              <div class="w-75">
+                <h6 class="mb-3">Vanille, Chocolat noir, Chocolat blanc, Moka, Fraise, Caramel beurre salé, Spéculoos,
+                  Pistache, Stracciatella (+/- 0.40 €/pc)</h6>
+              </div>
+            </div><!-- plats -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div id="content-footer" class="d-flex justify-content-between container">
+      <div class="col-lg-4 col-md-4">
+        <article id="contact-footer" class="bloc-footer">
+          <h2>Contact</h2>
+          <p>10, Place Communale, <br />
+            7350 Hensies <br />
+            <i class="fas fa-phone"></i> : 065/77.71.73 <br />
+            info@patatehouse.com <br />
+            Suivez-nous sur :
+          </p>
+          <div id="reseaux-footer" class="d-flex justify-content-md-start justify-content-center">
+            <a href="https://www.facebook.com/" target="_blank" class="mr-4"><i class="fab fa-facebook-f"></i> </a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> </a>
+          </div><!-- reseaux-footer -->
+          <br />
+          <a href="contact.html#plan" target="_blank">Plan d’accès</a>
+
+
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-4">
+        <article id="horaire-footer" class="bloc-footer">
+          <h2>Horaire</h2>
+          <div id="horaire-resto" class="d-flex justify-content-md-start justify-content-center">
+            <div class="mr-5 mr-sm-3 mr-lg-5" id="jours">
+              <p>Lundi<br />
+                Mardi<br />
+                Mercredi<br />
+                Jeudi<br />
+                vendredi<br />
+                Samedi<br />
+                Dimanche</p>
+            </div>
+
+            <div id="heures">
+              <p>Fermé<br />
+                Fermé<br />
+                18:30 - 21:30<br />
+                18:00 - 22:00<br />
+                17:30 - 23:00<br />
+                17:30 - 23:00<br />
+                11:30 - 15:00<br />
+                17:30 - 21:00</p>
+            </div>
+          </div><!-- horaire-resto -->
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-4">
+        <article id="plan-footer" class="bloc-footer">
+          <h2>Plan du site</h2>
+          <div id="plan">
+            <a href="index.html">Home</a>
+            <a href="le-restaurant.html">Le restaurant</a>
+            <a href="la-carte.html">La carte</a>
+            <a href="le-bar.html">Le bar</a>
+            <a href="livraisons.html">Livraisons</a>
+            <a href="contact.html">Contact et Réservation</a>
+          </div><!-- plan -->
+        </article>
+      </div>
+    </div> <!-- container flex -->
+    <div class="boutons d-flex justify-content-center mb-3">
+      <a class="btn btn-dark btn-lg rounded-pill mr-5" href="livraisons.html" role="button"
+        style="background-color: #ea8623;">LIVRAISONS</a>
+
+      <a class="btn btn-dark btn-lg rounded-pill" href="contact.html" role="button"
+        style="background-color: #ea8623;">RESERVATION</a>
+    </div><!-- boutons -->
+
+    <div class="text-lg-right text-md-right text-center pr-lg-5 pr-md-5">
+      <a href="#"><i class="fas fa-arrow-alt-circle-up"></i>
+      </a>
+
+    </div>
+
+    <div id="copyright" class="d-flex justify-content-center container">
+      <p>Patate House © Copyright 2019. All rights reserved - </p>
+      <a href="#"> Mentions légales</a>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
